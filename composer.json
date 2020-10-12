@@ -1,0 +1,19 @@
+{
+  "name": "PauloSCLima/phpmvc",
+  "description": "Este projeto norteia o desenvolvedor iniciante nos seus trabalhos com MVC.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "PauloSCLima",
+      "email": "pauloimediato@outlook.com"
+    }
+  ],
+  "require": {
+    "twig/twig": "3.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "app/"
+    }
+  }
+}
